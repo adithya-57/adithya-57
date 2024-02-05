@@ -1,10 +1,56 @@
-<body>
-    <div class="main">
-      <h2>Welcome, Click here to create a Survey!</h2>
-      <button id="btn">Create</button>
-      <p id="msg"></p>
-      <script>
-        document.getElementById("demo").innerHTML = "Hello JavaScript!";
-        </script>
-    </div>
-  </body>
+<html>
+<head>
+<title> A first time quiz app</title>
+</head>
+<body style="background-color:violet";>
+<body text="red">
+<body background="https://1.bp.blogspot.com/-ESeLwbNMxZY/Xq1SWT7LzCI/AAAAAAAABnA/MRyBXSz9DpAN9kqSiMuDwua4KiR6MDkogCLcBGAsYHQ/s1600/1567494100-ilayaraja111.jpg">
+<h1>Happy Birthday Illayaraja</h1>
+q1.What is Illayaraja's Birthday year?<br>
+<input type ="radio" name ="question1" id="correct1">1942<br>
+<input type ="radio" name ="question1">1967<br>
+<input type ="radio" name ="question1">1990<br>
+<input type ="radio" name ="question1">1978<br>
+q2.When did  Illayaraja enter into industry?<br>
+<input type ="radio" name ="question2">1968<br>
+<input type ="radio" name ="question2">1945<br>
+<input type ="radio" name ="question2">1920<br>
+<input type ="radio" name ="question2" id="correct2">1976<br>
+q3.What is the age of Illayaraja till now ?<br>
+<input type ="radio" name ="question3" id="correct3">80<br>
+<input type ="radio" name ="question3">90<br>
+<input type ="radio" name ="question3">70<br>
+<input type ="radio" name ="question3">60<br>
+q4.How many movies are composed by Illayaraja?<br>
+<input type ="radio" name ="question4">1000<br>
+<input type ="radio" name ="question4">3000<br>
+<input type ="radio" name ="question4"id="correct4">2500<br>
+<input type ="radio" name ="question4">900<br>
+q5.When was bgm introduced by him?<br>
+<input type ="radio" name ="question5" id="correct5">1981<br>
+<input type ="radio" name ="question5">1897<br>
+<input type ="radio" name ="question5">1467<br>
+<input type ="radio" name ="question5">1990<br>
+<input type ="submit" name ="submit value="submit within 40 mins" onclick="result()">
+<script type="text/javascript">
+function r(){
+var s=0;
+if(document.getElementById('correct1').checked){
+s++;
+}
+if(document.getElementById('correct2').checked){
+s++;
+}
+if(document.getElementById('correct3').checked){
+s++;
+}
+if(document.getElementById('correct4').checked){
+s++;
+}
+if(document.getElementById('correct5').checked){
+s++;
+}
+document.write("Your score is"+s);
+</script>
+</body>
+</html>
